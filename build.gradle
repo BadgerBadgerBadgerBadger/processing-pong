@@ -1,0 +1,17 @@
+
+apply plugin: 'application'
+mainClassName = 'me.scionofbytes.processing.pong.Main'
+
+sourceSets {
+    main {
+        java { srcDir 'src' }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.processing:core:3.2.3'
+}
